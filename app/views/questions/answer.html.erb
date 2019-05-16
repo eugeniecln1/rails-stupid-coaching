@@ -1,0 +1,13 @@
+<h1>Stupid coaching</h1>
+
+<div class="banner">
+  <p><%= params[:user_ask] %></p>
+  <p><em>-You</em></p>
+</div>
+
+<div class="banner" style="background: #FFFEE1;">
+  <p><strong><%= @answer %></strong></p>
+  <p><em>-Your coach</em></p>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
